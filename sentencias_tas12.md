@@ -1,6 +1,5 @@
 # TAS12 - Subconsultas-invoice_db
-## 1. El numero total de facturas realizadas por cada cliente.
-          nombre_cliente | direccion | nro_facturas
+## 1. El numero total de facturas realizadas por cada cliente. nombre_cliente | direccion | nro_facturas
   - Sentencia:
   ```
   SELECT
@@ -19,8 +18,7 @@
 
 <img src="./capturas_tas12/01.jpg" alt="drawing" width="500"/>
 
-## 2. Listar nombre y correo de los clientes junto a su compra mas cara realizada.
-          nombres |  correo   | total_mas_alto
+## 2. Listar nombre y correo de los clientes junto a su compra mas cara realizada. nombres |  correo   | total_mas_alto
   - Sentencia:
   ```
   SELECT
@@ -37,8 +35,7 @@
 
 <img src="./capturas_tas12/02.jpg" alt="drawing" width="500"/>
 
-## 3. Listar las facturas donde sus totales sean mayores al promedio de las facturas
-          fecha_factura | total
+## 3. Listar las facturas donde sus totales sean mayores al promedio de las facturas. fecha_factura | total
   - Sentencia:
   ```
   SELECT i.create_at AS fecha_factura, i.total
